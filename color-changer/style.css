@@ -1,0 +1,52 @@
+body{
+  color: white;
+  background-color: black;
+  margin: 0px 20px;
+  padding: 0px 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.heading{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  margin: 50px;
+}
+.color-container{
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  height: 15px;
+  width: 15px;
+  border: solid;
+  border-color: whitesmoke;
+  padding: 30px;
+  margin: 0px 5px;
+  border-radius: 1rem;
+}
+
+.canvas{
+  background-color: white;
+  height: 50vh;
+  border-radius: 2.5rem;
+}
+
+#red{
+  color: red;
+}
+
+#yellow{
+  color: yellow;
+}
+
+#green{
+  color: green;
+}
+
+#blue{
+  color: blue;
+}
