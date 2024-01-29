@@ -1,0 +1,46 @@
+body{
+  background-color: rgb(44, 44, 44);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 1.5rem;
+  margin: 20px 0px;
+  align-items: center;
+}
+
+p{
+  padding: 0px;
+  margin: 5px 0px;
+}
+
+h1,h2,h3{
+  padding: 0px;
+  margin: 0px;
+}
+
+.heading{
+  text-align: center;
+  border-bottom: solid orange;
+}
+
+form{
+  width: 300px;
+  border: solid;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.container-flex{
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.calculate{
+  width: 150px;
+  height: 25px;
+}
+
