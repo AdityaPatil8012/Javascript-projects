@@ -21,7 +21,8 @@ body{
 #clock{
   justify-content: center;
   align-self: center;
-  text-align: center;
+  display: flex;
+  align-items: center;
   width: 200px;
   height: 30px;
   padding: 10px 2px;
