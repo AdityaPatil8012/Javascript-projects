@@ -1,0 +1,22 @@
+body{
+  background-color: black;
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button{
+  cursor: pointer;
+}
+
+#container{
+  background-color: black;
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  padding: 2.5rem;
+  margin: 1rem;
+  border: solid white;
+}
