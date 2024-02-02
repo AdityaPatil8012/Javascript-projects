@@ -1,0 +1,30 @@
+ body{
+        color: white;
+        background-color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 0;
+        margin: 0;
+}
+
+.heading{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.Rock-Paper-Scissor{
+  margin:20px 50px;
+}
+
+.make-move{
+  height: 50px;
+  background-color: transparent;
+}
+
+.move-button{
+  background-color: transparent;
+  border: 2px solid white;
+  padding: 15px;
+  border-radius: 100%;
+  margin-right: 10px;
+  cursor: pointer;
+}
