@@ -23,6 +23,7 @@ body {
     rgba(148, 187, 233, 1) 100%
   );
   margin: 3rem 0.5rem;
+  height: 100%;
   /* 
   colors that will go well with light are (blue: #120a8f and skin: #f0e7d8);
   */
@@ -99,6 +100,6 @@ button:hover {
   background-color: #191638;
 }
 
-.Delete{
+.Delete {
   font-size: x-small;
 }
