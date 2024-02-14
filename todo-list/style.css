@@ -82,6 +82,11 @@ input[type="text"] {
   margin-right: 0.25rem;
 }
 
+
+input:focus{
+  outline: none;
+}
+
 ul li {
   padding: 0.1rem 1.5rem;
   list-style: none;
