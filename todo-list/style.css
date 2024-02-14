@@ -24,6 +24,7 @@ body {
   );
   margin: 3rem 0.5rem;
   height: 100%;
+  overflow: hidden;
   /* 
   colors that will go well with light are (blue: #120a8f and skin: #f0e7d8);
   */
@@ -57,6 +58,12 @@ main {
   height: 60vh;
   border-bottom-left-radius: 2rem;
   border-bottom-right-radius: 2rem;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
+main::-webkit-scrollbar {
+  display: none;
 }
 
 .inputContainer {
